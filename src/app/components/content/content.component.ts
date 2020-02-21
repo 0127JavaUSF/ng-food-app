@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContentComponent implements OnInit {
 
-  input: string;
+  input: string = '';
 
   constructor() { }
 
